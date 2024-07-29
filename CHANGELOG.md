@@ -1,3 +1,85 @@
+## [6.4.4](https://github.com/karma-runner/karma/compare/v6.4.3...v6.4.4) (2024-07-29)
+
+## [6.4.3](https://github.com/karma-runner/karma/compare/v6.4.2...v6.4.3) (2024-02-24)
+
+
+### Bug Fixes
+
+* add build commits for patch release ([d7f2d69](https://github.com/karma-runner/karma/commit/d7f2d69ff41a5811552412080519b1984ff48669))
+
+## [6.4.2](https://github.com/karma-runner/karma/compare/v6.4.1...v6.4.2) (2023-04-21)
+
+
+### Bug Fixes
+
+* few typos ([c6a4271](https://github.com/karma-runner/karma/commit/c6a42710b40e81269f1e6c5d5bb55d01188a8872))
+
+## [6.4.1](https://github.com/karma-runner/karma/compare/v6.4.0...v6.4.1) (2022-09-19)
+
+
+### Bug Fixes
+
+* pass integrity value ([63d86be](https://github.com/karma-runner/karma/commit/63d86befd3431fe8e1500e22f4f115a3762d000a))
+
+# [6.4.0](https://github.com/karma-runner/karma/compare/v6.3.20...v6.4.0) (2022-06-14)
+
+
+### Features
+
+* support SRI verification of link tags ([dc51a2e](https://github.com/karma-runner/karma/commit/dc51a2e0e9b9805f7740f52fde01bcd20adc2dfc))
+* support SRI verification of script tags ([6a54b1c](https://github.com/karma-runner/karma/commit/6a54b1c2a1df8214c470b8a5cc8036912874637e))
+
+## [6.3.20](https://github.com/karma-runner/karma/compare/v6.3.19...v6.3.20) (2022-05-13)
+
+
+### Bug Fixes
+
+* prefer IPv4 addresses when resolving domains ([e17698f](https://github.com/karma-runner/karma/commit/e17698f950af83bf2b3edc540d2a3e1fb73cba59)), closes [#3730](https://github.com/karma-runner/karma/issues/3730)
+
+## [6.3.19](https://github.com/karma-runner/karma/compare/v6.3.18...v6.3.19) (2022-04-19)
+
+
+### Bug Fixes
+
+* **client:** error out when opening a new tab fails ([099b85e](https://github.com/karma-runner/karma/commit/099b85ed0a46e37dd7cb14fc1596cbb1b3eabce9))
+
+## [6.3.18](https://github.com/karma-runner/karma/compare/v6.3.17...v6.3.18) (2022-04-13)
+
+
+### Bug Fixes
+
+* **deps:** upgrade socket.io to v4.4.1 ([52a30bb](https://github.com/karma-runner/karma/commit/52a30bbc6e168333a8592c26c9f40678d6ab74ea))
+
+## [6.3.17](https://github.com/karma-runner/karma/compare/v6.3.16...v6.3.17) (2022-02-28)
+
+
+### Bug Fixes
+
+* **deps:** update colors to maintained version ([#3763](https://github.com/karma-runner/karma/issues/3763)) ([fca1884](https://github.com/karma-runner/karma/commit/fca18843e7a04eeb67b86cb3cfc3db794d66f445))
+
+## [6.3.16](https://github.com/karma-runner/karma/compare/v6.3.15...v6.3.16) (2022-02-10)
+
+
+### Bug Fixes
+
+* **security:** mitigate the "Open Redirect Vulnerability" ([ff7edbb](https://github.com/karma-runner/karma/commit/ff7edbb2ffbcdd69761bece86b7dc1ef0740508d))
+
+## [6.3.15](https://github.com/karma-runner/karma/compare/v6.3.14...v6.3.15) (2022-02-05)
+
+
+### Bug Fixes
+
+* **helper:** make mkdirIfNotExists helper resilient to concurrent calls ([d9dade2](https://github.com/karma-runner/karma/commit/d9dade2f004a340e49c9a633177576200c286404)), closes [/github.com/karma-runner/karma-coverage/issues/434#issuecomment-1017939333](https://github.com//github.com/karma-runner/karma-coverage/issues/434/issues/issuecomment-1017939333)
+
+## [6.3.14](https://github.com/karma-runner/karma/compare/v6.3.13...v6.3.14) (2022-02-05)
+
+
+### Bug Fixes
+
+* remove string template from client code ([91d5acd](https://github.com/karma-runner/karma/commit/91d5acda6325caf91685da465d688527bd412b47))
+* warn when `singleRun` and `autoWatch` are `false` ([69cfc76](https://github.com/karma-runner/karma/commit/69cfc763c8f83e8e7e64d34e17829d0d3dcc0449))
+* **security:** remove XSS vulnerability in `returnUrl` query param ([839578c](https://github.com/karma-runner/karma/commit/839578c45a8ac42fbc1d72105f97eab77dd3eb8a))
+
 ## [6.3.13](https://github.com/karma-runner/karma/compare/v6.3.12...v6.3.13) (2022-01-31)
 
 
